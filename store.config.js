@@ -7,8 +7,7 @@ module.exports = {
 
   // Platform specific configs for API
   api: {
-    storeId: 'shoppingazulao',
-    workspace: 'megastore',
+    storeId: 'uzeuze',
     environment: 'vtexcommercestable',
     hideUnavailableItems: true,
   },
@@ -19,15 +18,15 @@ module.exports = {
       code: 'USD',
       symbol: '$',
     },
-    locale: 'en-US',
+    locale: 'pt-BR',
     channel: '{"salesChannel":"1","regionId":""}',
-    country: 'USA',
+    country: 'BRA',
     postalCode: null,
     person: null,
   },
 
   // Production URLs
-  storeUrl: 'https://uzeuze.com.br',
+  storeUrl: 'https://www.uzeuze.com.br',
   secureSubdomain: 'https://secure.uzeuze.com.br',
   checkoutUrl: 'https://secure.uzeuze.com.br/checkout',
   loginUrl: 'https://secure.uzeuze.com.br/api/io/login',
